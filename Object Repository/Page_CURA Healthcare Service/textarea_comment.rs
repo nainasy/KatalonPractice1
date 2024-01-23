@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>textarea_comment</name>
    <tag></tag>
-   <elementGuidId>4a48e825-7837-475e-b838-3e43a9222882</elementGuidId>
+   <elementGuidId>fea95d79-d1db-4648-a75a-ff91cac0d55f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btn-login']</value>
+         <value>//textarea[@id='txt_comment']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#btn-login</value>
+         <value>#txt_comment</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,79 +21,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>95cf4c8d-8072-4c55-b353-73ad212da2a7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>btn-login</value>
-      <webElementGuid>0921e771-3b18-4c53-8dcd-cf4baf0a2317</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>23112810-5fd3-4aba-8e7d-efe48b40b477</webElementGuid>
+      <value>textarea</value>
+      <webElementGuid>57050a48-f418-4e20-a2db-1da39645ed68</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-default</value>
-      <webElementGuid>142981da-9e21-41a4-951f-3aa54ee388a6</webElementGuid>
+      <value>form-control</value>
+      <webElementGuid>f42b9d8e-4c50-414f-805b-344735702ff5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>id</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>f7888541-3129-460f-9f20-2a345b2846f8</webElementGuid>
+      <value>txt_comment</value>
+      <webElementGuid>56daf08b-61b3-4511-9735-97fda6cbf710</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>comment</value>
+      <webElementGuid>70732872-9fb4-4323-b050-be658c1c3dee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Comment</value>
+      <webElementGuid>36ae6615-ac72-47ab-beb7-33ad256c1b75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>10</value>
+      <webElementGuid>39ca797c-f03b-499a-93db-1f8b8ea868ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btn-login&quot;)</value>
-      <webElementGuid>4df2e8e2-36d1-422f-bacf-bf4b3e085178</webElementGuid>
+      <value>id(&quot;txt_comment&quot;)</value>
+      <webElementGuid>2e687069-3254-4fa7-a4f1-0c44aaed4dea</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='btn-login']</value>
-      <webElementGuid>1ad5cf1b-8db8-4a5d-9ac5-f4029dd45cc9</webElementGuid>
+      <value>//textarea[@id='txt_comment']</value>
+      <webElementGuid>3e226b63-811f-419a-87e0-19a0f6ed70a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='login']/div/div/div[2]/form/div[4]/div/button</value>
-      <webElementGuid>1545d1df-ff4b-4aa8-b8de-85a1af22fe0e</webElementGuid>
+      <value>//section[@id='appointment']/div/div/form/div[5]/div/textarea</value>
+      <webElementGuid>00cf00a8-ae23-4ae5-9124-966633a84218</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>1f8b9c1a-9f20-4746-860b-11ce1d3a478e</webElementGuid>
+      <value>//textarea</value>
+      <webElementGuid>9f79c537-a240-4d48-a448-5daf467dc6a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'btn-login' and @type = 'submit' and (text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>34a7e465-485a-44ee-9ffd-5ebdffb24023</webElementGuid>
+      <value>//textarea[@id = 'txt_comment' and @name = 'comment' and @placeholder = 'Comment']</value>
+      <webElementGuid>f6fd43ea-aa72-40ef-949d-f33a43261c1c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

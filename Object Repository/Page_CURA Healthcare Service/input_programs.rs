@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>input_programs</name>
    <tag></tag>
-   <elementGuidId>4a48e825-7837-475e-b838-3e43a9222882</elementGuidId>
+   <elementGuidId>bf1be1de-af0d-46d9-9334-a0afe3eb230c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='btn-login']</value>
+         <value>//input[@id='radio_program_medicaid']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#btn-login</value>
+         <value>#radio_program_medicaid</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,79 +21,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>95cf4c8d-8072-4c55-b353-73ad212da2a7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>btn-login</value>
-      <webElementGuid>0921e771-3b18-4c53-8dcd-cf4baf0a2317</webElementGuid>
+      <value>input</value>
+      <webElementGuid>f02069a5-a1ca-4a10-a8e8-4fc062810209</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>23112810-5fd3-4aba-8e7d-efe48b40b477</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-default</value>
-      <webElementGuid>142981da-9e21-41a4-951f-3aa54ee388a6</webElementGuid>
+      <value>radio</value>
+      <webElementGuid>a51c5034-3564-4fc8-93a9-288da74f0087</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>name</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>f7888541-3129-460f-9f20-2a345b2846f8</webElementGuid>
+      <value>programs</value>
+      <webElementGuid>295d9a5e-ad34-470d-8e56-daaa09bba650</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>radio_program_medicaid</value>
+      <webElementGuid>ad98f72b-1645-45ae-b59f-f04956faa6b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Medicaid</value>
+      <webElementGuid>8762b3ce-2605-4a91-9cf5-a7bbff176ac0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btn-login&quot;)</value>
-      <webElementGuid>4df2e8e2-36d1-422f-bacf-bf4b3e085178</webElementGuid>
+      <value>id(&quot;radio_program_medicaid&quot;)</value>
+      <webElementGuid>6931d78a-8b71-485d-90fb-ba36b562469a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='btn-login']</value>
-      <webElementGuid>1ad5cf1b-8db8-4a5d-9ac5-f4029dd45cc9</webElementGuid>
+      <value>//input[@id='radio_program_medicaid']</value>
+      <webElementGuid>155c60ed-384a-4702-bbb9-8841b6acbc9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='login']/div/div/div[2]/form/div[4]/div/button</value>
-      <webElementGuid>1545d1df-ff4b-4aa8-b8de-85a1af22fe0e</webElementGuid>
+      <value>//section[@id='appointment']/div/div/form/div[3]/div/label[2]/input</value>
+      <webElementGuid>313e4018-afc6-4fb9-828c-0f0146596cd0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>1f8b9c1a-9f20-4746-860b-11ce1d3a478e</webElementGuid>
+      <value>//label[2]/input</value>
+      <webElementGuid>976249e3-c111-4b8c-afb2-0ffb56b57691</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'btn-login' and @type = 'submit' and (text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>34a7e465-485a-44ee-9ffd-5ebdffb24023</webElementGuid>
+      <value>//input[@type = 'radio' and @name = 'programs' and @id = 'radio_program_medicaid']</value>
+      <webElementGuid>face0b80-af42-4ccf-8fe3-fd86d59d60ed</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
