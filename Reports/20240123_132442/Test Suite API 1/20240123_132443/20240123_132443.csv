@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite API 1,,,,23-01-2024 13:24:47,23-01-2024 13:24:48,0.791s,PASSED
+,,,,,,,
+Test Cases/API Testing/Get list of users,,,,23-01-2024 13:24:47,23-01-2024 13:24:48,0.721s,PASSED
+"response = sendRequest(findTestObject(""GET users""))",,,,23-01-2024 13:24:47,23-01-2024 13:24:48,0.605s,PASSED
+statuscode = getResponseStatusCode(response),,,,23-01-2024 13:24:48,23-01-2024 13:24:48,0.006s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,23-01-2024 13:24:48,23-01-2024 13:24:48,0.006s,PASSED
