@@ -17,24 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+def response = WS.sendRequest(findTestObject('GET users'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
-    'Seoul CURA Healthcare Center', true)
+def statuscode = WS.getResponseStatusCode(response)
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_programs'))
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_visit_date'))
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/td_31'))
-
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/textarea_comment'), 'No comment')
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Book Appointment'))
-
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/appointment.php#summary')
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation'), 'Appointment Confirmation')
-
-WebUI.closeBrowser()
+//println(statuscode)
+WS.verifyResponseStatusCode(response, 200)
 
