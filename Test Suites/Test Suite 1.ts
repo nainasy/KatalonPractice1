@@ -29,7 +29,7 @@
       <guid>7a56849f-ed14-4e8b-a194-f2ce4e938902</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Testing/Login Failed</testCaseId>
+      <testCaseId>Test Cases/Web Testing/Login Failed_wrong password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
