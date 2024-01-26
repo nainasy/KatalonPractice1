@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('DELETE users'))
+def response = WS.sendRequest(findTestObject('DELETE users'))
  
-statuscode = WS.getResponseStatusCode(response)
+//statuscode = WS.getResponseStatusCode(response)
  
-println(statuscode)
+//println(statuscode)
  
 WS.verifyResponseStatusCode(response, 204)
 

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite API 1" time="1.362" tests="2" failures="0" errors="0">
+   <testsuite name="Test Suite API 1" tests="2" failures="0" errors="0" time="1.362" skipped="0" timestamp="23-01-2024T16:07:47" hostname="nurulainasyuhada - localhost" id="Test Suites/Test Suite API 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/nurulainasyuhada/git/KatalonPractice1/Reports/20240123_160741/Test Suite API 1/20240123_160742"/>
+         <property name="logFiles" value="/Users/nurulainasyuhada/git/KatalonPractice1/Reports/20240123_160741/Test Suite API 1/20240123_160742/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nurulainasyuhada - localhost"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+      </properties>
+      <testcase name="Test Cases/API Testing/Get list of users" time="0.72" classname="Test Cases/API Testing/Get list of users" status="PASSED">
+         <system-out><![CDATA[23-01-2024T16:07:47 - [TEST_CASE][PASSED] - Test Cases/API Testing/Get list of users: Test Cases/API Testing/Get list of users
+
+23-01-2024T16:07:47 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("GET users")): Send request successfully
+
+23-01-2024T16:07:48 - [MESSAGE][INFO] - HAR: /Users/nurulainasyuhada/git/KatalonPractice1/Reports/20240123_160741/Test Suite API 1/20240123_160742/requests/main/0.har
+
+23-01-2024T16:07:48 - [MESSAGE][PASSED] - Send request successfully
+
+23-01-2024T16:07:48 - [TEST_STEP][PASSED] - statuscode = getResponseStatusCode(response): null
+
+23-01-2024T16:07:48 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+23-01-2024T16:07:48 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API Testing/Delete existing user" time="0.557" classname="Test Cases/API Testing/Delete existing user" status="PASSED">
+         <system-out><![CDATA[23-01-2024T16:07:48 - [TEST_CASE][PASSED] - Test Cases/API Testing/Delete existing user: Test Cases/API Testing/Delete existing user
+
+23-01-2024T16:07:48 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("DELETE users")): Send request successfully
+
+23-01-2024T16:07:49 - [MESSAGE][INFO] - HAR: /Users/nurulainasyuhada/git/KatalonPractice1/Reports/20240123_160741/Test Suite API 1/20240123_160742/requests/main/1.har
+
+23-01-2024T16:07:49 - [MESSAGE][PASSED] - Send request successfully
+
+23-01-2024T16:07:49 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 204): Verify response status code successfully
+
+23-01-2024T16:07:49 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-01-2024T16:07:47 - [TEST_SUITE][PASSED] - Test Suite API 1: Test Cases/API Testing/Delete existing user]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

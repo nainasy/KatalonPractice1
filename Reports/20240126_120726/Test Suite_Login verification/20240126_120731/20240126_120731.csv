@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite_Login verification,,,,26-01-2024 12:08:50,26-01-2024 12:08:51,0.586s,FAILED
+,,,,,,,
+Test Cases/Web Testing/Login Successful,,,,26-01-2024 12:08:51,26-01-2024 12:08:51,0.017s,FAILED
+"openBrowser("""")",,,,26-01-2024 12:08:51,26-01-2024 12:08:51,0.008s,FAILED
+,,,,,,,
+Test Cases/Web Testing/Login Failed,,,,26-01-2024 12:08:51,26-01-2024 12:08:51,0.015s,FAILED
+"openBrowser("""")",,,,26-01-2024 12:08:51,26-01-2024 12:08:51,0.007s,FAILED
+,,,,,,,
+Test Cases/Web Testing/Login Failed,,,,26-01-2024 12:08:51,26-01-2024 12:08:51,0.019s,FAILED
+"openBrowser("""")",,,,26-01-2024 12:08:51,26-01-2024 12:08:51,0.011s,FAILED

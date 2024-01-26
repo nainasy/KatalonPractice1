@@ -6,12 +6,12 @@
    <elementGuidId>04df65a5-8149-411f-9b31-436162ede5cd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[@onclick=&quot;$('#menu-close').click();&quot;])[5]</value>
+         <key>CSS</key>
+         <value>a.btn.btn-default</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>li:nth-of-type(5) > a</value>
+         <key>XPATH</key>
+         <value>//section[@id='profile']/div/div/div/p[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,23 +22,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>c1ccffc6-c2b4-43ab-bce4-a443491d9550</webElementGuid>
+      <webElementGuid>24c644dd-2c8e-40c7-8bb6-d5ab64a0f53c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-default</value>
+      <webElementGuid>cdbda92d-dd76-4896-a6e5-aeaf827f1867</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>authenticate.php?logout</value>
-      <webElementGuid>a8cd6f8d-e9ef-49a4-b9b3-cd1d4311ef0c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>$('#menu-close').click();</value>
-      <webElementGuid>8b255c8b-61b3-4b7b-b183-dfb10622b836</webElementGuid>
+      <value>https://katalon-demo-cura.herokuapp.com/authenticate.php?logout</value>
+      <webElementGuid>87f5839d-a9ff-4e15-8461-6471d21c45d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,62 +46,54 @@
       <name>text</name>
       <type>Main</type>
       <value>Logout</value>
-      <webElementGuid>90de546f-1b9b-48d9-8c27-f498330e2588</webElementGuid>
+      <webElementGuid>d8a83dad-15ef-4a97-98e7-b2fa57cded5b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;sidebar-wrapper&quot;)/ul[@class=&quot;sidebar-nav&quot;]/li[5]/a[1]</value>
-      <webElementGuid>f43163c5-aa4c-4a0f-b1ed-37598befd6e6</webElementGuid>
+      <value>id(&quot;profile&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12 text-center&quot;]/p[@class=&quot;lead&quot;]/a[@class=&quot;btn btn-default&quot;]</value>
+      <webElementGuid>87cfebbb-6236-4129-a80e-6e2a2f54c63d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//a[@onclick=&quot;$('#menu-close').click();&quot;])[5]</value>
-      <webElementGuid>139f49c4-98f9-4377-bc46-8944c263adec</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//nav[@id='sidebar-wrapper']/ul/li[5]/a</value>
-      <webElementGuid>1d83d464-d388-4d87-bbd1-920e76d9384f</webElementGuid>
+      <value>//section[@id='profile']/div/div/div/p[2]/a</value>
+      <webElementGuid>6d973de9-2caa-492c-ac2d-9577626b2c75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Logout')]</value>
-      <webElementGuid>c9f405bc-cef8-4131-842c-d2104babb935</webElementGuid>
+      <value>(//a[contains(text(),'Logout')])[2]</value>
+      <webElementGuid>79e4dd4a-49e8-447a-a4cc-6879e8ae40e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'authenticate.php?logout')]</value>
-      <webElementGuid>5272994b-b666-4465-8985-a14c1884c2a1</webElementGuid>
+      <value>//a[contains(@href, 'https://katalon-demo-cura.herokuapp.com/authenticate.php?logout')]</value>
+      <webElementGuid>58a0a3fd-6f48-418f-8fa3-ef72dbf068b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[5]/a</value>
-      <webElementGuid>aca088fc-7196-4c4c-8339-d3e88ae38523</webElementGuid>
+      <value>//p[2]/a</value>
+      <webElementGuid>5e32d0a0-ae46-4c0f-b466-a6ca45e2c803</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'authenticate.php?logout' and (text() = 'Logout' or . = 'Logout')]</value>
-      <webElementGuid>c392944b-98fa-4a8b-b74e-7731676fe51d</webElementGuid>
+      <value>//a[@href = 'https://katalon-demo-cura.herokuapp.com/authenticate.php?logout' and (text() = 'Logout' or . = 'Logout')]</value>
+      <webElementGuid>bbaa96b6-1a3b-4c9d-8633-4c38e671e795</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

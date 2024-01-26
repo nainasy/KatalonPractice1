@@ -12,24 +12,24 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>79731e9b-12b4-4947-8b38-93e999160ea3</testSuiteGuid>
    <testCaseLink>
-      <guid>a285a7e8-3b0e-4c90-82c1-26cd0528fba2</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Testing/Login</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>8d8e6f67-8e2e-48ef-904f-af114668d5f1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Testing/Book Appointment</testCaseId>
+      <testCaseId>Test Cases/Web Testing/Reused Test Cases/Book Appointment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7a56849f-ed14-4e8b-a194-f2ce4e938902</guid>
+      <guid>a7abfea2-c564-4dd8-b93e-afd19cab9eda</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Testing/Login Failed_wrong password</testCaseId>
+      <testCaseId>Test Cases/Web Testing/View history</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>228d9136-15dd-440a-a8c0-31988533eb7a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web Testing/View profile</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

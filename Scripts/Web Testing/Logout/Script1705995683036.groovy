@@ -17,11 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Web Testing/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Web Testing/Reused Test Cases/Book Appointment'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Logout'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Go to Homepage'))
 
-WebUI.verifyElementPresent(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'), 3)
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/i_fa fa-bars'))
+
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Logout'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'), 3)
 
 WebUI.closeBrowser()
 

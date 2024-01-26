@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Test Suite_Login verification</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>bc79a972-26fd-4353-b6c3-5c890cd4420e</testSuiteGuid>
+   <testCaseLink>
+      <guid>69f9816c-ad2c-4f45-964b-eaaf3fdd5104</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web Testing/Login Successful</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c8df8afd-8e1d-42c6-be21-155a8943f23d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Correct credentials</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>c8df8afd-8e1d-42c6-be21-155a8943f23d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>7be45861-8ff3-4bf4-8c08-5b0358ba49d2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c8df8afd-8e1d-42c6-be21-155a8943f23d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>0e50f8a6-8261-406e-b8d8-02a8353f7fa9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5ac16cbb-7aac-4775-950f-9e80d4c250af</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web Testing/Login Failed</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>03c50768-ed9c-4ac5-9575-dae93bd30aef</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Incorrect credentials</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>03c50768-ed9c-4ac5-9575-dae93bd30aef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>d6ab8aa3-7785-4d6a-95d1-56023fdbc32a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>03c50768-ed9c-4ac5-9575-dae93bd30aef</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>05805448-a45c-4808-876d-3c83433da9fe</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

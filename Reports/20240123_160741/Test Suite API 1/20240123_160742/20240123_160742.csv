@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite API 1,,,,23-01-2024 16:07:47,23-01-2024 16:07:49,1.362s,PASSED
+,,,,,,,
+Test Cases/API Testing/Get list of users,,,,23-01-2024 16:07:47,23-01-2024 16:07:48,0.720s,PASSED
+"response = sendRequest(findTestObject(""GET users""))",,,,23-01-2024 16:07:47,23-01-2024 16:07:48,0.586s,PASSED
+statuscode = getResponseStatusCode(response),,,,23-01-2024 16:07:48,23-01-2024 16:07:48,0.006s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,23-01-2024 16:07:48,23-01-2024 16:07:48,0.007s,PASSED
+,,,,,,,
+Test Cases/API Testing/Delete existing user,,,,23-01-2024 16:07:48,23-01-2024 16:07:49,0.557s,PASSED
+"response = sendRequest(findTestObject(""DELETE users""))",,,,23-01-2024 16:07:48,23-01-2024 16:07:49,0.528s,PASSED
+"verifyResponseStatusCode(response, 204)",,,,23-01-2024 16:07:49,23-01-2024 16:07:49,0.004s,PASSED
