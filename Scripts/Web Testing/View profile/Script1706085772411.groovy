@@ -26,6 +26,8 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Pro
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/profile.php#profile')
 
+WebUI.takeScreenshotAsCheckpoint('ProfilePage')
+
 WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Profile'), 'Profile')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Logout'), 0)

@@ -36,3 +36,5 @@ WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/appointment.php#sum
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation'), 'Appointment Confirmation')
 
+WebUI.takeScreenshotAsCheckpoint('AppointmentConfirmation')
+

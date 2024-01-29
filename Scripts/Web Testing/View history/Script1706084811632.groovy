@@ -25,6 +25,8 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_His
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/history.php#history')
 
+WebUI.takeScreenshotAsCheckpoint('HistoryPage')
+
 def currentwindow = WebUI.getUrl()
 
 WebUI.verifyMatch(currentwindow, 'https://katalon-demo-cura.herokuapp.com/history.php#history', false)
