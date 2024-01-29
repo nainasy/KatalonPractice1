@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_CURA Healthcare Service/a_Logout",
+      "brokenLocator": "//section[@id\u003d\u0027profile\u0027]/div/div/div/p[2]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "a.btn.btn-default",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20240126_132650/Test Suite 1/20240126_132651/Object Repository/Page_CURA Healthcare Service/a_Logout_CSS.png"
+    }
+  ]
+}

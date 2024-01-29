@@ -30,5 +30,3 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare S
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Logout'), 0)
 
-WebUI.closeBrowser()
-

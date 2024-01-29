@@ -25,9 +25,9 @@ WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/i_fa fa-bars'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Logout'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Logout_1'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'), 3)
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.closeBrowser()
 

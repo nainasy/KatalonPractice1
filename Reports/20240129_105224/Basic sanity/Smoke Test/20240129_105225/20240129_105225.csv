@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke Test,Chrome 120.0.6099.234,,,29-01-2024 10:52:32,29-01-2024 10:53:24,51.411s,PASSED
+,,,,,,,
+Test Cases/Web Testing/TC001_Login,Chrome 120.0.6099.234,,,29-01-2024 10:52:32,29-01-2024 10:52:40,7.819s,PASSED
+"callTestCase(findTestCase(""Web Testing/Reused Test Cases/Login""), [""Username"":""John Doe"", ""Password"":""ThisIsNotAPassword""], STOP_ON_FAILURE)",Chrome 120.0.6099.234,,,29-01-2024 10:52:33,29-01-2024 10:52:40,7.648s,PASSED
+closeBrowser(),Chrome 120.0.6099.234,,,29-01-2024 10:52:40,29-01-2024 10:52:40,0.079s,PASSED
+,,,,,,,
+Test Cases/Web Testing/TC002_Logout_Profile page,Chrome 120.0.6099.234,,,29-01-2024 10:52:40,29-01-2024 10:52:49,8.717s,PASSED
+"callTestCase(findTestCase(""Web Testing/Logout_profile page""), [:], STOP_ON_FAILURE)",Chrome 120.0.6099.234,,,29-01-2024 10:52:40,29-01-2024 10:52:49,8.694s,PASSED
+,,,,,,,
+Test Cases/Web Testing/TC003_Logout_History page,Chrome 120.0.6099.234,,,29-01-2024 10:52:49,29-01-2024 10:52:58,9.400s,PASSED
+"callTestCase(findTestCase(""Web Testing/Logout_history page""), [:], STOP_ON_FAILURE)",Chrome 120.0.6099.234,,,29-01-2024 10:52:49,29-01-2024 10:52:58,9.377s,PASSED
+,,,,,,,
+Test Cases/Web Testing/TC004_Book Appointment,Chrome 120.0.6099.234,,,29-01-2024 10:52:58,29-01-2024 10:53:05,6.678s,PASSED
+"callTestCase(findTestCase(""Web Testing/Reused Test Cases/Book Appointment""), [:], STOP_ON_FAILURE)",Chrome 120.0.6099.234,,,29-01-2024 10:52:58,29-01-2024 10:53:05,6.656s,PASSED
+,,,,,,,
+Test Cases/Web Testing/TC005_View history,Chrome 120.0.6099.234,,,29-01-2024 10:53:05,29-01-2024 10:53:12,6.725s,PASSED
+"callTestCase(findTestCase(""Web Testing/View history""), [:], STOP_ON_FAILURE)",Chrome 120.0.6099.234,,,29-01-2024 10:53:05,29-01-2024 10:53:12,6.704s,PASSED
+,,,,,,,
+Test Cases/Web Testing/TC006_View profile,Chrome 120.0.6099.234,,,29-01-2024 10:53:12,29-01-2024 10:53:18,5.751s,PASSED
+"callTestCase(findTestCase(""Web Testing/View profile""), [:], STOP_ON_FAILURE)",Chrome 120.0.6099.234,,,29-01-2024 10:53:12,29-01-2024 10:53:18,5.731s,PASSED
+,,,,,,,
+Test Cases/Web Testing/TC007_Login_Homepage bar,Chrome 120.0.6099.234,,,29-01-2024 10:53:18,29-01-2024 10:53:24,6.246s,PASSED
+"callTestCase(findTestCase(""Web Testing/Login_Homepage bar""), [:], STOP_ON_FAILURE)",Chrome 120.0.6099.234,,,29-01-2024 10:53:18,29-01-2024 10:53:24,6.229s,PASSED

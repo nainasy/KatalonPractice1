@@ -40,5 +40,3 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare S
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/p_No comment'), 'No comment')
 
-WebUI.closeBrowser()
-

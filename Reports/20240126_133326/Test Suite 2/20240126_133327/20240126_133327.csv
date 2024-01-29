@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 2,Chrome 120.0.6099.234,,,26-01-2024 13:33:34,26-01-2024 13:36:40,3m - 5.684s,FAILED
+,,,,,,,
+Test Cases/Web Testing/Logout,Chrome 120.0.6099.234,,,26-01-2024 13:35:42,26-01-2024 13:36:23,41.237s,FAILED
+"callTestCase(findTestCase(""Web Testing/Reused Test Cases/Book Appointment""), [:], STOP_ON_FAILURE)",Chrome 120.0.6099.234,,,26-01-2024 13:35:42,26-01-2024 13:35:48,5.806s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 120.0.6099.234,,,26-01-2024 13:35:48,26-01-2024 13:35:48,0.365s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 120.0.6099.234,,,26-01-2024 13:35:48,26-01-2024 13:35:48,0.414s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/i_fa fa-bars""))",Chrome 120.0.6099.234,,,26-01-2024 13:35:48,26-01-2024 13:35:48,0.064s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Logout""))",Chrome 120.0.6099.234,,,26-01-2024 13:35:48,26-01-2024 13:36:23,34.572s,FAILED
+,,,,,,,
+Test Cases/Web Testing/Logout_history page,Chrome 120.0.6099.234,,,26-01-2024 13:36:23,26-01-2024 13:36:30,6.881s,PASSED
+"callTestCase(findTestCase(""Web Testing/View history""), [:], STOP_ON_FAILURE)",Chrome 120.0.6099.234,,,26-01-2024 13:36:23,26-01-2024 13:36:29,6.054s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/i_fa fa-bars""))",Chrome 120.0.6099.234,,,26-01-2024 13:36:29,26-01-2024 13:36:29,0.027s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Logout""))",Chrome 120.0.6099.234,,,26-01-2024 13:36:29,26-01-2024 13:36:29,0.421s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 120.0.6099.234,,,26-01-2024 13:36:29,26-01-2024 13:36:30,0.277s,PASSED
+closeBrowser(),Chrome 120.0.6099.234,,,26-01-2024 13:36:30,26-01-2024 13:36:30,0.081s,PASSED
+,,,,,,,
+Test Cases/Web Testing/Logout_profile page,Chrome 120.0.6099.234,,,26-01-2024 13:36:30,26-01-2024 13:36:40,9.735s,PASSED
+"callTestCase(findTestCase(""Web Testing/View profile""), [:], STOP_ON_FAILURE)",Chrome 120.0.6099.234,,,26-01-2024 13:36:30,26-01-2024 13:36:38,8.300s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Logout""))",Chrome 120.0.6099.234,,,26-01-2024 13:36:38,26-01-2024 13:36:39,0.871s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 120.0.6099.234,,,26-01-2024 13:36:39,26-01-2024 13:36:39,0.463s,PASSED
+closeBrowser(),Chrome 120.0.6099.234,,,26-01-2024 13:36:39,26-01-2024 13:36:40,0.080s,PASSED

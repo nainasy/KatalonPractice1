@@ -14,7 +14,7 @@
          <value>//section[@id='profile']/div/div/div/p[2]/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>24c644dd-2c8e-40c7-8bb6-d5ab64a0f53c</webElementGuid>
+      <webElementGuid>6d0baf32-7b6a-4431-abed-49ac8284077e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-default</value>
-      <webElementGuid>cdbda92d-dd76-4896-a6e5-aeaf827f1867</webElementGuid>
+      <webElementGuid>07e2e141-ed83-4d77-b099-394ed1617845</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://katalon-demo-cura.herokuapp.com/authenticate.php?logout</value>
-      <webElementGuid>87f5839d-a9ff-4e15-8461-6471d21c45d2</webElementGuid>
+      <webElementGuid>60911af2-a521-4d2f-995d-394cc34e2084</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Logout</value>
-      <webElementGuid>d8a83dad-15ef-4a97-98e7-b2fa57cded5b</webElementGuid>
+      <webElementGuid>6057cb38-d42e-461a-bef8-15ce4a259aa6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;profile&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12 text-center&quot;]/p[@class=&quot;lead&quot;]/a[@class=&quot;btn btn-default&quot;]</value>
-      <webElementGuid>87cfebbb-6236-4129-a80e-6e2a2f54c63d</webElementGuid>
+      <webElementGuid>47879de8-d5fb-4873-be57-1e49953e58f8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='profile']/div/div/div/p[2]/a</value>
-      <webElementGuid>6d973de9-2caa-492c-ac2d-9577626b2c75</webElementGuid>
+      <webElementGuid>653e923e-5139-40f4-ae47-ecbf51685cbf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Logout')])[2]</value>
-      <webElementGuid>79e4dd4a-49e8-447a-a4cc-6879e8ae40e5</webElementGuid>
+      <webElementGuid>576e84b8-0b0e-4b91-a431-5be171f6c722</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://katalon-demo-cura.herokuapp.com/authenticate.php?logout')]</value>
-      <webElementGuid>58a0a3fd-6f48-418f-8fa3-ef72dbf068b6</webElementGuid>
+      <webElementGuid>77f68ecc-7bfe-4761-8f66-b024f5ae33cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p[2]/a</value>
-      <webElementGuid>5e32d0a0-ae46-4c0f-b466-a6ca45e2c803</webElementGuid>
+      <webElementGuid>6f54a8d7-cbd6-487d-88e1-609acfc47188</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'https://katalon-demo-cura.herokuapp.com/authenticate.php?logout' and (text() = 'Logout' or . = 'Logout')]</value>
-      <webElementGuid>bbaa96b6-1a3b-4c9d-8633-4c38e671e795</webElementGuid>
+      <webElementGuid>94a5b756-7fa5-4318-8840-3cff884e0afb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>From make appointment page</description>
+   <name>Navigate to history page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aeb47d96-ca26-4e89-824c-7ffe7f27e8f4</testCaseGuid>
+</TestCaseEntity>
